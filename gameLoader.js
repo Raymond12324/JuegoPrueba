@@ -59,7 +59,7 @@ class gameLoader extends Phaser.Scene {
         this.anims.create({
             key: 'parao',
             repeat: 0,
-            frameRate: 100,
+            frameRate: 10,
             frames: this.anims.generateFrameNames('player', { start: 1, end: 1 })
         });
 
